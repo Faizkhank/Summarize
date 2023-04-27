@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+.orange_gradient
+{
+    @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+  }
+  .desc
+  {
+    @apply mt-11 m-auto bg-black bg-clip-text text-transparent font-thin lg:text-2xl xs:text-lg;
+  }
+  .desc1
+  {
+    @apply bg-gradient-to-r text-2xl font-semibold from-blue-400 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+  }
+}

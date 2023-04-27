@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Hero from "./Component/Navbar/Hero";
+import Navbar from "./Component/Navbar/Navbar";
+import Input from "./Component/Navbar/Input";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-full background-animate  bg-gradient-to-b min-h-screen from-slate-200 via-purple-200 to-orange-200">
+      <Navbar />
+      <Hero />
+      <Input />
     </div>
   );
 }

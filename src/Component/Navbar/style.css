@@ -1,0 +1,27 @@
+@keyframes shorten {
+    0% { font-size: 4rem; }
+    50% { font-size: 3rem; }
+    100% { font-size: 4rem; }
+  }
+  
+  #animatedText {
+    animation-name: shorten;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  #animatedText::after {
+    content: "z";
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes fade {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 0; }
+  }
