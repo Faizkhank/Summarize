@@ -65,7 +65,7 @@ const Input = () => {
       <div className="top-0 right-0  fixed m-auto w-full">
         <div className="flex justify-center">
           <div
-            className={`p-10 pl-15 text-white font-semibold text-2xl rounded-xl w-[300px] z-40  ease-in-out duration-300 ${
+            className={`p-10 pl-15 text-white font-semibold text-2xl rounded-xl w-[300px] z-30  ease-in-out duration-300 ${
               notification ? " translate-y-3 bg-black " : "translate-y-0"
             }`}
           >

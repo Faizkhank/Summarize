@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="p-6 mr-10">
           <a
             href="https://github.com/Faizkhank"
-            className="bg-black text-white px-4 py-2 rounded-3xl cursor-pointer "
+            className="bg-black text-white px-4 py-2 rounded-3xl cursor-pointer relative z-50 "
           >
             Github
           </a>
