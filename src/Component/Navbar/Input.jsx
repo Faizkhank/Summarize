@@ -57,7 +57,6 @@ const Input = () => {
         localStorage.setItem("userAritcle", JSON.stringify(Allarticles));
       }
     }
-    console.log(article);
   }, [data]);
 
   const dispatch = useDispatch();
